@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.filesharing.RequestGUIController">
+   <children>
+      <Button fx:id="btnAccept" layoutX="100.0" layoutY="125.0" mnemonicParsing="false" onAction="#onAccept" prefWidth="70.0" text="Accept" />
+      <Button fx:id="btnDecline" layoutX="235.0" layoutY="125.0" mnemonicParsing="false" onAction="#onDecline" prefWidth="70.0" text="Decline" />
+      <Label layoutX="87.0" layoutY="59.0" text="A file is being requested to download" />
+   </children>
+</AnchorPane>
