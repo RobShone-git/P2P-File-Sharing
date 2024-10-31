@@ -1,4 +1,4 @@
-# Anonymous Peer-to-Peer (P2P) File Sharing Program
+# Peer-to-Peer (P2P) File Sharing Program
 
 This project implements a simple peer-to-peer (P2P) file-sharing application with a client-server architecture. It provides functionality similar to uTorrent, but with limited features to maintain user anonymity and improve understanding of P2P file-sharing principles.
 
